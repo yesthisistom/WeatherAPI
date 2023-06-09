@@ -1,0 +1,10 @@
+version: '3'
+services:
+  weather:
+    build: .
+    image: weather
+    ports:
+      - "4001:80"
+    env_file: .env
+    restart: always
+
