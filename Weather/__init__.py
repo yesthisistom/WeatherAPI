@@ -1,3 +1,4 @@
+import os
 from .run_query import RequestType, make_request, RequestFailed
 
 
